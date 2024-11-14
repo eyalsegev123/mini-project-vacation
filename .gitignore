@@ -1,1 +1,4 @@
-venv/
+# venv/
+
+# Allow backend folder
+!backend/
