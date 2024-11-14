@@ -1,4 +1,10 @@
-# venv/
+# Ignore virtual environment folder (if you have one)
+venv/
 
-# Allow backend folder
-!backend/
+# Ignore other typical Python-related files/folders (adjust as needed)
+*.pyc
+__pycache__/
+
+# Ignore any other files/folders you don't want to track
+node_modules/
+.DS_Store
